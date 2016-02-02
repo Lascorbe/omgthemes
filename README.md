@@ -20,8 +20,10 @@ I have found while building *OMGThemes!* that Xcode renders the themes slightly 
 
 Seemingly the problem is that Safari doesn't apply your monitor’s colorspace profile when rendering pages, but Xcode (and every other Mac app) does. And beyond that I’m not sure how to proceed.
 
-TODO
-====
-* Convert both ways so we can auto-convert to other theme types.
-* Follow fork chains for forks and show what variations people have provided.
-* Ratings, repo stars aren't enough as repos can contain multiple themes
+Installation
+============
+You just have to put (or copy) the `.dvtcolortheme` files to your Xcode **FontAndColorThemes** directory. You can find it here:
+
+```
+~/Library/Developer/Xcode/UserData/FontAndColorThemes
+```
