@@ -27,3 +27,5 @@ You just have to put (or copy) the `.dvtcolortheme` files to your Xcode **FontAn
 ```
 ~/Library/Developer/Xcode/UserData/FontAndColorThemes
 ```
+
+**Note:** If the folder `FontAndColorThemes` doesn't exist, create it.
